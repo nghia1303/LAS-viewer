@@ -1,0 +1,9 @@
+D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/PointCloudViewer.dir
+D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/PointCloudViewer_autogen_timestamp_deps.dir
+D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/PointCloudViewer_autogen.dir

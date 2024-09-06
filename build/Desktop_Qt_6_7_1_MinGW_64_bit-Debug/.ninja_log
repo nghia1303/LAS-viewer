@@ -1,0 +1,9 @@
+# ninja log v6
+3	579	7468043661912647	PointCloudViewer_autogen/timestamp	cd5cdc00c8b38e98
+603	2988	7468043662597916	CMakeFiles/PointCloudViewer.dir/RenderWidget.cpp.obj	9b9d9c8f42be1126
+3	579	7468043661912647	PointCloudViewer_autogen/mocs_compilation.cpp	cd5cdc00c8b38e98
+3	579	7468043661912647	D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/PointCloudViewer_autogen/timestamp	cd5cdc00c8b38e98
+582	2989	7468043662377911	CMakeFiles/PointCloudViewer.dir/PointCloudViewer_autogen/mocs_compilation.cpp.obj	d9d7af618bab692c
+593	2991	7468043662497910	CMakeFiles/PointCloudViewer.dir/mainwindow.cpp.obj	675093d7b87bc3c2
+3	579	7468043661912647	D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/PointCloudViewer_autogen/mocs_compilation.cpp	cd5cdc00c8b38e98
+585	2987	7468043662407917	CMakeFiles/PointCloudViewer.dir/main.cpp.obj	ca40cf754e79d1e9

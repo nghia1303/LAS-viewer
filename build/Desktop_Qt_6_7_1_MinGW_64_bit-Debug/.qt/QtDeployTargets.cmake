@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_PointCloudViewer_FILE D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/PointCloudViewer.exe)
+set(__QT_DEPLOY_TARGET_PointCloudViewer_RUNTIME_DLLS D:/Working/Program_File/Qt/6.7.1/mingw_64/bin/Qt6Widgets.dll;E:/vcpkg/vcpkg/installed/x64-windows/debug/bin/pdalcpp.dll;E:/vcpkg/vcpkg/installed/x64-windows/debug/bin/pdal_util.dll;D:/Working/Program_File/Qt/6.7.1/mingw_64/bin/Qt6Gui.dll;D:/Working/Program_File/Qt/6.7.1/mingw_64/bin/Qt6Core.dll)

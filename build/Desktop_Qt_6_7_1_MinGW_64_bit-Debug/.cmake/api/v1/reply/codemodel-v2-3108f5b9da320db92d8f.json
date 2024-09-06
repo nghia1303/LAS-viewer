@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-645b88200aba9373b213.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PointCloudViewer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PointCloudViewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PointCloudViewer-Debug-77623f29209d813bd2af.json",
+					"name" : "PointCloudViewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PointCloudViewer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PointCloudViewer_autogen-Debug-63d5f8c0cb3fe3cf3f73.json",
+					"name" : "PointCloudViewer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PointCloudViewer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PointCloudViewer_autogen_timestamp_deps-Debug-cb42160b116b628bebeb.json",
+					"name" : "PointCloudViewer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug",
+		"source" : "D:/Working/Projects/PointCloudViewer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
