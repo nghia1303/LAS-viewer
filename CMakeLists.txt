@@ -7,20 +7,18 @@ project(PointCloudViewer VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
-
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
-
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 find_package(PDAL CONFIG REQUIRED PATHS "$ENV{VCPKG_ROOT}/installed/x64-windows/share/pdal")
 
-
-# add_executable(tutorial tutorial.cpp)
-# target_link_libraries(tutorial PRIVATE ${PDAL_LIBRARIES})
+find_package(Qt6 REQUIRED COMPONENTS OpenGL)
+find_package(Qt6 REQUIRED COMPONENTS OpenGLWidgets)
+find_package(Qt6 REQUIRED COMPONENTS Gui)
 
 set(PROJECT_SOURCES
         main.cpp
@@ -57,6 +55,9 @@ endif()
 target_link_libraries(PointCloudViewer PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 target_include_directories(PointCloudViewer PRIVATE ${PDAL_INCLUDE_DIRS})
 target_link_libraries(PointCloudViewer PRIVATE ${PDAL_LIBRARIES})
+target_link_libraries(PointCloudViewer PRIVATE Qt6::OpenGL)
+target_link_libraries(PointCloudViewer PRIVATE Qt6::OpenGLWidgets)
+target_link_libraries(PointCloudViewer PRIVATE Qt6::Gui)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an

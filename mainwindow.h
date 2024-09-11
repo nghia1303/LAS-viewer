@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QOpenGLWindow>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

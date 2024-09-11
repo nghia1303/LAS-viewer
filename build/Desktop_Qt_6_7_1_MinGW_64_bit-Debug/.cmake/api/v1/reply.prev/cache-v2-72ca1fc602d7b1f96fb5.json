@@ -1542,6 +1542,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenGL"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[opengl32][c ][v()]"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
 			"properties" : 
 			[
@@ -1576,6 +1588,50 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
+		},
+		{
+			"name" : "OPENGL_gl_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "OpenGL library for win32"
+				}
+			],
+			"type" : "STRING",
+			"value" : "opengl32"
+		},
+		{
+			"name" : "OPENGL_glu_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "GLU library for win32"
+				}
+			],
+			"type" : "STRING",
+			"value" : "glu32"
+		},
+		{
+			"name" : "OpenGL_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for OpenGL."
+				}
+			],
+			"type" : "PATH",
+			"value" : "E:/anaconda3/Library/lib/cmake/Qt5"
 		},
 		{
 			"name" : "PDAL_DIR",
@@ -6100,6 +6156,30 @@
 			],
 			"type" : "PATH",
 			"value" : "D:/Working/Program_File/Qt/6.7.1/mingw_64/lib/cmake/Qt6Gui"
+		},
+		{
+			"name" : "Qt6OpenGLWidgets_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt6OpenGLWidgets."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/Working/Program_File/Qt/6.7.1/mingw_64/lib/cmake/Qt6OpenGLWidgets"
+		},
+		{
+			"name" : "Qt6OpenGL_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt6OpenGL."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/Working/Program_File/Qt/6.7.1/mingw_64/lib/cmake/Qt6OpenGL"
 		},
 		{
 			"name" : "Qt6WidgetsTools_DIR",
