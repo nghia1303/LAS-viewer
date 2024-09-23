@@ -28,7 +28,7 @@
        </widget>
       </item>
       <item>
-       <widget class="RenderWidget" name="openGLWidget">
+       <widget class="QOpenGLWidget" name="openGLWidget">
         <property name="minimumSize">
          <size>
           <width>702</width>
@@ -63,25 +63,7 @@
    <addaction name="menuFile"/>
    <addaction name="menuView"/>
   </widget>
-  <widget class="QToolBar" name="toolBar">
-   <property name="windowTitle">
-    <string>toolBar</string>
-   </property>
-   <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
-   </attribute>
-   <attribute name="toolBarBreak">
-    <bool>false</bool>
-   </attribute>
-  </widget>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>RenderWidget</class>
-   <extends>QOpenGLWidget</extends>
-   <header>renderwidget.h</header>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>

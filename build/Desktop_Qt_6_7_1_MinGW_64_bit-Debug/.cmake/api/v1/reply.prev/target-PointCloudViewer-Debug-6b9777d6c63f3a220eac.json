@@ -77,19 +77,19 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 77,
+				"line" : 80,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 57,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 59,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
@@ -121,19 +121,19 @@
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 55,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 1,
 				"line" : 58,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 60,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
@@ -299,7 +299,7 @@
 			{
 				"command" : 11,
 				"file" : 1,
-				"line" : 56,
+				"line" : 59,
 				"parent" : 0
 			}
 		]
@@ -437,11 +437,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "PointCloudViewer_autogen::@6890427a1f51a3e7e1df"
+			"id" : "PointCloudViewer_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "PointCloudViewer_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "PointCloudViewer_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "PointCloudViewer::@6890427a1f51a3e7e1df",
@@ -588,7 +588,7 @@
 			[
 				3,
 				5,
-				7
+				9
 			]
 		},
 		{
@@ -596,14 +596,16 @@
 			"sourceIndexes" : 
 			[
 				4,
-				8
+				7,
+				8,
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				9
+				11
 			]
 		}
 	],
@@ -640,14 +642,24 @@
 		},
 		{
 			"backtrace" : 4,
-			"path" : "RenderWidget.h",
+			"path" : "renderwidget.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "RenderWidget.cpp",
+			"path" : "renderwidget.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "shader/fragment_shader.fsh",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "shader/vertex_shader.vsh",
+			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,

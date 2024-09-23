@@ -360,15 +360,15 @@
 	"HEADERS" : 
 	[
 		[
-			"D:/Working/Projects/PointCloudViewer/RenderWidget.h",
-			"MU",
-			"EWIEGA46WW/moc_RenderWidget.cpp",
-			null
-		],
-		[
 			"D:/Working/Projects/PointCloudViewer/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"D:/Working/Projects/PointCloudViewer/renderwidget.h",
+			"MU",
+			"EWIEGA46WW/moc_renderwidget.cpp",
 			null
 		]
 	],
@@ -448,9 +448,9 @@
 	"SETTINGS_FILE" : "D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/PointCloudViewer_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "D:/Working/Projects/PointCloudViewer/RenderWidget.cpp", "MU", null ],
 		[ "D:/Working/Projects/PointCloudViewer/main.cpp", "MU", null ],
-		[ "D:/Working/Projects/PointCloudViewer/mainwindow.cpp", "MU", null ]
+		[ "D:/Working/Projects/PointCloudViewer/mainwindow.cpp", "MU", null ],
+		[ "D:/Working/Projects/PointCloudViewer/renderwidget.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

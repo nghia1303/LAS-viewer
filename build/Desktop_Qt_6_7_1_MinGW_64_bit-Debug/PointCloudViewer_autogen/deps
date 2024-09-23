@@ -170,9 +170,13 @@ PointCloudViewer_autogen/timestamp: \
 	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtGui/qwindow.h \
 	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtGui/qwindowdefs.h \
 	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtOpenGL/QOpenGLBuffer \
 	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtOpenGL/QOpenGLShaderProgram \
+	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtOpenGL/QOpenGLVertexArrayObject \
 	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtOpenGL/QOpenGLWindow \
+	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtOpenGL/qopenglbuffer.h \
 	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtOpenGL/qopenglshaderprogram.h \
+	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtOpenGL/qopenglvertexarrayobject.h \
 	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtOpenGL/qopenglwindow.h \
 	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtOpenGL/qtopenglexports.h \
 	D:/Working/Program_File/Qt/6.7.1/mingw_64/include/QtOpenGL/qtopenglglobal.h \
@@ -573,8 +577,6 @@ PointCloudViewer_autogen/timestamp: \
 	D:/Working/Program_File/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
 	D:/Working/Program_File/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
 	D:/Working/Projects/PointCloudViewer/CMakeLists.txt \
-	D:/Working/Projects/PointCloudViewer/RenderWidget.cpp \
-	D:/Working/Projects/PointCloudViewer/RenderWidget.h \
 	D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	D:/Working/Projects/PointCloudViewer/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
@@ -584,6 +586,8 @@ PointCloudViewer_autogen/timestamp: \
 	D:/Working/Projects/PointCloudViewer/main.cpp \
 	D:/Working/Projects/PointCloudViewer/mainwindow.cpp \
 	D:/Working/Projects/PointCloudViewer/mainwindow.h \
+	D:/Working/Projects/PointCloudViewer/renderwidget.cpp \
+	D:/Working/Projects/PointCloudViewer/renderwidget.h \
 	E:/vcpkg/vcpkg/installed/x64-windows/share/pdal/PDALConfig.cmake \
 	E:/vcpkg/vcpkg/installed/x64-windows/share/pdal/PDALConfigVersion.cmake \
 	E:/vcpkg/vcpkg/installed/x64-windows/share/pdal/PDALTargets-debug.cmake \

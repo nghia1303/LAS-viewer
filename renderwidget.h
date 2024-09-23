@@ -10,17 +10,21 @@ class RenderWidget : public QOpenGLWidget, protected QOpenGLFunctions
 {
     Q_OBJECT
 public:
-    // using QOpenGLWidget::QOpenGLWidget;
     RenderWidget(QWidget* parent = nullptr);
     ~RenderWidget();
 private:
     QOpenGLShaderProgram m_shaderProgram;
-    int m_frame = 0;
     QOpenGLVertexArrayObject m_vao;
+    QOpenGLBuffer m_arrayBuffer;
+    QOpenGLBuffer m_indexBuffer;
+    int m_frame = 0;
 protected:
     void initializeGL() override;
     void paintGL() override;
     void resizeGL(GLint w, GLint h) override;
+    void prepareShaderProgram();
+    void prepareVertexBuffers();
+    void prepareFragmentBuffers();
 };
 
 #endif // RENDERWIDGET_H

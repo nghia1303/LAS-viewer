@@ -8,8 +8,9 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    RenderWidget *renderWidget = new RenderWidget(this);
-    ui->openGLWidget = renderWidget;
+
+    RenderWidget* renderWidget = new RenderWidget(this);
+    ui->horizontalLayout->addWidget(renderWidget, 1);
 }
 
 MainWindow::~MainWindow()
